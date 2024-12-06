@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta charset="utf-8" />
+    <title>Home page</title>
+    <link rel="stylesheet" href="/css/Style.css">
+    <script src="/js/Script.js"></script>
+
+    <style>
+        body {
+            background-color: cornsilk;
+        }
+        .leftPage{
+            background-color:rgb(45,200,150);
+           height:500px;
+        }
+        .master{
+            display:grid;
+            grid-template-columns:10% 90%;
+        }
+
+        .hlist {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height:100px;
+            background-color: blue;
+            overflow:auto;
+        }
+        .hlist>li{
+            padding:6px 6px 6px 6px;
+           top:10px;
+            height:30%;
+            float:left;
+            background-color:aquamarine;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="apple">
+        <ul class="hlist">
+            <li>Home</li>
+            <li>Friends</li>
+            <li>videos</li>
+        </ul>
+    </div>
+   
+        <div class="master" style="clear:left;">
+            <div>
+                The name<br />
+                <i>He was seen in the bush.</i>
+            </div>
+            <div style="margin-left:0px; float:right; background-color:rgba(68,100,150,0.5)">
+                <h2>This is the header.</h2>
+
+                <button type="button" onclick="getCars()"><img src="images/droneshow.jpg" title="show date and time" alt="click to show date" style="width:20px;height:auto" /></button>
+
+                <button type="button" onclick="change()">Hi</button>
+
+                <p id="dem"><i class="glyphicon glyphicon-user"></i></p>
+                <p id="demo"><i class="glyphicon glyphicon-cloud" style="font-size:36px;"></i></p>
+            </div>
+        </div>
+       
+
+</body>
+</html>
