@@ -2,61 +2,115 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, initial-scale=1.0">
+
     <title>Home page</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="Images/web site wiring.jpg" title="vectors auto Favicon" />
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Welcome to Vectors Automotive Solutions</h1>
-            <p>Your trusted partner for quality automotive rewiring services</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#services">Our Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+   
+      <div class="head">
+        <div id="image">
+            <img src="Images/web_site_wiring-removebg-preview.png" width="100" alt="The company's logo'" />
         </div>
-    </header>
-
-    <main>
-        <section id="about" class="container">
-            <h2>About Us</h2>
-            <p>We specialize in high-quality rewiring solutions for all types of vehicles, ensuring your car's electrical system runs smoothly and reliably.</p>
-        </section>
-
-        <section id="services" class="container">
-            <h2>Our Services</h2>
+        <div id="vectors">
+            <img id="tyre1" src="Images/tyre-removebg-preview.png" />
+            <h1>Vectors Automotive Solutions</h1>
+            <img id="tyre2" src="Images/tyre-removebg-preview.png" />
+        </div>
+        <div id="list">
             <ul>
-                <li>Complete automotive rewiring</li>
-                <li>Diagnostics and troubleshooting</li>
-                <li>Custom wiring for modified cars</li>
-                <li>Battery and alternator maintenance</li>
-                <li>Hybrid vehicle troubleshooting</li>
-                <li>Engine performance troubleshooting</li>
-                <li>Transmission control system</li>
-                <li>Key and remote programming</li>
-                <li>Installation of securities and trackers</li>
-     
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact us</a></li>
             </ul>
-        </section>
+        </div>
 
-        <section id="contact" class="container">
-            <h2>Contact Us</h2>
-            <form action="https://formspree.io/f/your-form-id" method="POST">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-    </main>
-    <a href="w.me/+2348162043451">Contact us on whatsapp</a>
+      </div>
+
+      <main>
+          <section id="about" class="container">
+              <h2>About Us</h2>
+              <p>We specialize in high-quality rewiring solutions for all types of vehicles, ensuring your car's electrical system runs smoothly and reliably.</p>
+          </section>
+
+          <section id="services" class="container">
+              <h2>Our Services</h2>
+              <div class="works">
+                  <div>
+                      <img src="Images/website car body.jpg" width="300" />
+                      <p>Complete automotive rewiring</p>
+                  </div>
+                  <div>
+                      <img src="Images/website car body.jpg" width="300" />
+                      <p>Diagnostics and troubleshooting</p>
+                  </div>
+                  <div>
+                      <img src="Images/website car body.jpg" width="300" />
+                      <p>Custom wiring for modified cars</p>
+                  </div>
+                  <div>
+                      <img src="Images/website car body.jpg" width="300" />
+                      <p>Battery and alternator maintenance</p>
+                  </div>
+                  <div>
+                      <img src="Images/website car body.jpg" width="300" />
+                      <p>Hybrid vehicle troubleshooting</p>
+                  </div>
+                  <div>
+                      <img src="Images/website car body.jpg" width="300" />
+                      <p>Engine performance troubleshooting</p>
+                  </div>
+                  <div>
+                      <img src="Images/gearbox.png" width="300" />
+                      <p>Transmission control system</p>
+                  </div>
+                  <div>
+                      <img src="Images/remotes.png" width="300" />
+                      <p>Key and remote programming</p>
+                  </div>
+                  <div>
+                      <img src="Images/website car body.jpg" width="300" />
+                      <p>Installation of securities and trackers</p>
+                  </div>
+              </div>
+
+          </section>
+
+          <section id="contact" class="container">
+              <h2>Contact Us</h2>
+              <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+
+                      <label for="name">Name:</label>
+                      <input type="text" id="name" name="name" required>
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email" required>
+                      <label for="message">Message:</label>
+                      <textarea id="message" name="message" required></textarea>
+                      <button type="submit">Send Message</button>
+
+              </form>
+          </section>
+
+          <div class="contact-buttons">
+              <div>
+                  <!-- WhatsApp Button -->
+                  <a href="https://wa.me/+2348162043451" target="_blank" class="btn whatsapp-btn">
+                      <img src="whatsapp-icon.png" alt="WhatsApp"> Chat with us on WhatsApp
+                  </a>
+              </div>
+              <div>
+                  <!-- Phone Call Button -->
+                  <a href="tel:+2348162043451" class="btn phone-btn">
+                      <img src="phone-icon.png" alt="Phone"> Call us
+                  </a>
+              </div>
+          </div>
+
+    
+
+      </main>
 
     <footer>
         <p>&copy; 2024 AutoRewire Experts. All Rights Reserved.</p>
